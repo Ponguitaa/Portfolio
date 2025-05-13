@@ -136,7 +136,7 @@ export default function App() {
               {cvData.experience}
             </p>
             <p className="text-lg">
-              <strong className="text-indigo-300">Email:</strong> {cvData.email}
+              <strong className="text-indigo-300">Correo:</strong> {cvData.email}
             </p>
             <button
               onClick={generatePDF}
